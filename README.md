@@ -48,8 +48,11 @@ Prediction Result:
 
 # 📦 Requirements
   pandas
+  
   numpy
+  
   scikit-learn
+  
   tabulate
 
 # 🔮 Future Enhancements
