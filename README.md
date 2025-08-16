@@ -29,17 +29,7 @@ All models are trained and evaluated, with the best model selected based on accu
 1. Load and preprocess the dataset.
 2. Apply TF-IDF vectorization to the text data.
 3. Split data into training and testing sets.
-4. Train five different ML models:
-  Multinomial Naive Bayes
-
-  Logistic Regression
-
-  Random Forest Classifier
-
-  K-Nearest Neighbors
-
-  Support Vector Classifier
-
+4. Train five different ML models.
 5. Evaluate and select the best-performing model.
 6. Enter text in real-time to detect the language using the best model.
 
@@ -54,3 +44,26 @@ Prediction Result:
 ╞═══════════════════╡
 │        French      │
 ╘═══════════════════╛
+```
+
+# 📦 Requirements
+  pandas
+  numpy
+  scikit-learn
+  tabulate
+
+# 🔮 Future Enhancements
+
+Train with more datasets and expand beyond the current 21 languages
+
+Add deep learning models (e.g., LSTMs, Transformers)
+
+Deploy as a Streamlit / Gradio web app for easy demos
+
+Provide REST API / FastAPI service for integration
+
+Add confidence scores & probabilities in predictions
+
+Support for code-mixed and transliterated text (e.g., Hinglish)
+
+Export best model to ONNX / TensorFlow Lite for mobile deployment
