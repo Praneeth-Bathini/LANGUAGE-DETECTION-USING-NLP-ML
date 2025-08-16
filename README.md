@@ -33,6 +33,16 @@ All models are trained and evaluated, with the best model selected based on accu
 5. Evaluate and select the best-performing model.
 6. Enter text in real-time to detect the language using the best model.
 
+
+flowchart LR
+    A[Load Dataset] --> B[Preprocessing\n(drop NA, clean text)]
+    B --> C[TF–IDF Vectorization]
+    C --> D[Train-Test Split]
+    D --> E[Train Multiple Models\n(NB, LR, RF, KNN, SVM)]
+    E --> F[Evaluate Accuracy]
+    F --> G[Select Best Model]
+    G --> H[Interactive Inference\n(User Input → Prediction)]
+
 # 💻 Sample Output
 
 ```bash
